@@ -1,0 +1,62 @@
+@use 'variables';
+
+.icono{
+    font-family: variables.$futura;
+    font-size: variables.$size-2;
+    font-weight: variables.$weight-1;
+}
+
+.titulo-1{
+    font-family: variables.$poppins;
+    font-size: variables.$size-1;
+    font-weight: variables.$weight-1;
+}
+
+.titulo-2{
+    font-family: variables.$poppins;
+    font-size: variables.$size-3;
+    font-weight: variables.$weight-2;
+}
+
+.texto-1{
+    color: variables.$rosado-oscuro;
+    font-family: variables.$raleway;
+    font-size: variables.$size-4;
+    font-weight: variables.$weight-3;
+}
+
+.boton-1{
+    border-radius: 9999px;
+    border: 10;
+    font-family: variables.$raleway;
+    background-color: variables.$rojo;
+    color: variables.$blanco;
+    font-size: variables.$size-4;
+    font-weight: variables.$weight-3;
+    padding: 1rem 4rem 1rem 4rem
+}
+
+.boton-2{
+    border-radius: 9999px;
+    border: 10;
+    font-family: variables.$raleway;
+    background-color: variables.$blanco;
+    color: variables.$rojo;
+    font-size: variables.$size-4;
+    font-weight: variables.$weight-3;
+    padding: 1rem 4rem 1rem 4rem;
+}
+
+.titulo-3{
+    font-family: variables.$raleway;
+    font-size: variables.$size-4;
+    font-weight: variables.$weight-1;
+}
+
+.texto-2{
+    color: variables.$rosado-oscuro;
+    font-family: variables.$raleway;
+    font-size: variables.$size-5;
+    font-weight: variables.$weight-3;
+}
+
